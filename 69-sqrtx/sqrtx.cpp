@@ -8,8 +8,7 @@ public:
         int high=x;
         while(low<=high){
             int mid= low+(high-low)/2;
-            long long square = static_cast<long long>(mid) * static_cast<long long>(mid);
-
+            long long square = (mid*1ll)*(mid*1ll);
             if(square==x){
                 return mid;
             }
